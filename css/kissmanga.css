@@ -417,7 +417,22 @@ border-bottom: 2px solid red;
 }
 
 
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 600px){
+	.first-layer {
+		margin-left: 10%;
+	}
+	.nav-bar {
+		margin-left: 10%;
+	}
+	.rotating-update {
+		margin-left: 10%;
+	}
+	.popular {
+		margin-left: 10%;
+	}
+
+}
+@media only screen and (max-width: 368px){
 	.first-layer {
 		margin-left: 0px;
 	}
@@ -430,9 +445,9 @@ border-bottom: 2px solid red;
 	.popular {
 		margin-left: 0px;
 	}
-
 }
-@media only screen and (min-width: 368px){
+
+@media only screen and (max-width: 992px){
 	.first-layer {
 		margin-left: 0px;
 	}
