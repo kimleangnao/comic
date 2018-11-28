@@ -1,0 +1,415 @@
+body {
+	padding: 0;
+	margin: 0;
+	background-image: url('http://anband.spb.ru/images/300/DSC100347002.jpg');
+	font-family: sans-serif;
+}
+
+/*First-layer*/
+.first-layer {
+	width:1140px;
+	margin-left: 380px;
+	float: left;
+	box-shadow: 0px 5px 5px #777777;
+}
+.logo {
+	float:left;
+	width: 176px;
+	height: 176px;
+}
+
+.search-input {
+	float: left;
+	height: 30px;
+	width: 200px;
+	font-family: sans-serif;
+	border: 1px solid lightgrey;
+	margin-left: 567px;
+	margin-right: 5px;
+	margin-top: 40px;
+}
+.option-search {
+	float: left;
+	height: 30px;
+	border: 1px solid lightgrey;
+	margin-right: 5px;
+	margin-top: 40px;
+}
+.search-submit {
+	height: 35px;
+	width: 85px;
+	background-color: #FFDF00;
+	border: 1px solid #FFDF00;
+	font-family: sans-serif;
+	margin-top: 40px;
+}
+.search-submit:hover {
+	font-weight: bold;
+}
+.advance-search {
+
+}
+.button-advance {
+	float: left;
+	background-color: #FFDF00;
+	border: 1px solid #FFDF00;
+	width: 200px;
+	height: 32px;
+	font-family: sans-serif;
+	margin-left: 567px;
+	margin-top: 5px;
+}
+.button-advance:hover {
+	font-weight: bold;
+}
+.login-register {
+	float: right;
+	width: 190px;
+	height: 32px;
+	background-color: #ffb600;
+	line-height: 28px;
+	text-align: center;
+	color: red;
+	margin-top: 5px;
+}
+.login {
+	text-decoration: none;
+	color:#ffffff;
+	font-weight: bold;
+}
+.login:hover {
+	color: black;
+}
+.register {
+	text-decoration: none;
+	color: #000000;
+	font-weight: bold;
+}
+
+.register:hover {
+	color: white;
+}
+
+/*nav-bar*/
+.nav-bar {
+	clear: left;
+	width: 1140px;
+	margin-left: 379px;
+	background-color: white;
+
+}
+.nav-bar ul {
+	padding-left: 3px;
+}
+.nav-bar li {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	display: inline-block;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	padding-right: 49px;
+	padding-left: 49px;	
+}
+
+.nav-bar  li a {
+	text-decoration: none;
+	color: black;
+	font-weight: bold;
+
+}
+.nav-bar  li:hover {
+	border-bottom: 3px solid red;
+	padding-bottom: 12px;
+	box-shadow: 1px 1px 5px red;
+}
+.nav-bar  li:hover a {
+	color: red;
+}
+
+/*rotating-update*/
+.rotating-update {
+	margin-top: 3px;
+	width: 1140px;
+	margin-left: 379px;
+	height: 200px;
+}
+
+.update {
+	float: left;
+	width: 742px;
+	height: 30px;
+	background-color: #40E0D0;
+
+}
+
+.update-title {
+	font-weight: bold;
+
+}
+
+.update-title p {
+	color: black;
+	margin-top: 5px;
+	padding-left: 5px;
+}
+.update-title p a {
+	text-decoration: none;
+	color: black;
+}
+.update-title p a:hover {
+	color: red;
+}
+.update-title p a:active {
+	color: white;
+}
+
+.span-backward {
+	margin-left: 455px;
+	margin-right: 20px;
+}
+.span-forward {
+	margin-left: 20px;
+}
+.backward-button {
+	background-color: #40E0D0;
+	border: none;
+}
+.backward-button:hover {
+	color: red;
+}
+.backward-button:active { 
+	color: white;
+}
+.forward-button {
+	background-color: #40E0D0;
+	border: none;
+}
+.forward-button:hover {
+	color: red;
+}
+.forward-button:active {
+	color: white;
+}
+/*update-picture rotating on click*/
+.update-picture {
+	width: 740px;
+	height: 230px;
+	background-color: white;
+	margin-top: 5px;
+	border: 1px solid green;
+}
+
+.pic {
+	float: left;
+	width: 150px;
+	height: 168px;
+
+	color: ;
+	margin-right: 5px;
+	margin-left: 25px;
+}
+.active {
+
+}
+.deactive {
+	display: none;
+}
+
+.group-1 {
+
+}
+.group-2 {
+
+}
+.group-3 {
+
+}
+
+/*Picture1-12*/
+
+.picture {
+	width: 130px;
+	height: 150px;
+}
+
+.title-name {
+	width: 130px;
+}
+
+
+/*Announcement*/
+.Anouncement {
+	float: right;
+	width: 390px;
+	height: 259px;
+	text-align: center;
+	font-weight: bold;
+	border:1px solid red;
+}
+.title-text {
+	color: red;
+	height: 30px;
+	margin-top: 0px;
+	background-color: white;
+	line-height: 20px;
+}
+.detail-announcement {
+	height: 228px;
+	width: 390px;
+	background-image: url(../edite.png);
+	margin-top: 0px;
+}
+
+/*popular-page*/
+.popular {
+	margin-top: 65px;
+	width: 1140px;
+	margin-left: 379px;
+	background-color: white;
+}
+.popular-new {
+	float: left;
+	width: 563px;
+	height: 720px;
+	background-color: white;
+}
+.popular-classic {
+	float: right;
+	width: 563px;
+	height: 720px;
+	background-color: white;
+}
+
+/*new-popular*/
+.new-title {
+	text-align: center;
+	height: 30px;
+	background-color: #40E0D0;
+	line-height: 30px;
+	margin-top: 0px;
+	font-weight: bold;
+	box-shadow: 0px 5px 10px #40E0D0;
+}
+
+nav {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	margin-top: 15px;
+	padding-bottom: 15px;
+}
+
+nav a {
+	display: inline-block;
+	margin-left: 10px;
+	padding-left: 55px;
+	padding-right: 55px;
+}
+
+nav a {
+	text-decoration: none;
+	font-weight: bold;
+	color: black;
+}
+
+nav a:hover {
+	box-shadow: 0px 7px 6px red;
+
+}
+nav a:hover {
+	color: red;
+}
+
+/*classic-popular*/
+
+.classic-title {
+	text-align: center;
+	height: 30px;
+	background-color: #40E0D0;
+	line-height: 30px;
+	margin-top: 0px;
+	font-weight: bold;
+	box-shadow: 0px 5px 10px #40E0D0;
+}
+
+.nav-classic {
+	padding:0;
+	margin:0;
+	list-style: none;
+	margin-top: 15px;
+	padding-bottom: 5px;
+}
+.nav-classic a {
+	display: inline-block;
+	margin-left: 10px;
+	padding-left: 55px;
+	padding-right: 55px;
+}
+
+.nav-classic a {
+	text-decoration: none;
+	font-weight: bold;
+	color: black;
+}
+.nav-classic a:hover {
+	box-shadow: 0px 7px 6px green;
+}
+.nav-classic a:hover {
+	color: green;
+}
+
+/*Manga-Popular-new*/
+.manga-new {
+	border-bottom: 2px solid red;
+	box-shadow: 0px 0px 5px red;
+	margin-top: 5px;
+	padding-bottom: 10px;
+	height: 300px;
+}
+.manga-image {
+	float: left;
+	height: 250px;
+	width: 168px;
+	padding-right: 10px;
+
+}
+
+.manga-title {
+	font-weight: bold;
+	text-align: center;
+	padding-top: 10px;
+}
+.manga-genre {
+	font-weight: bold;
+}
+.genre {
+	margin-left: 10px;
+	font-weight: bold;
+	font-size: 20px;
+	
+}
+.manga-description {
+
+}
+.description {
+	font-size: 20px;
+	margin-left: 10px;
+	font-weight: bold;
+
+}
+.details {
+	margin-left: 5px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+
+}
+
+/*Classic-manga*/
+.manga-classic {
+border-bottom: 2px solid red;
+	box-shadow: 0px 0px 5px red;
+	margin-top: 5px;
+	padding-bottom: 10px;
+	height: 300px;
+}
