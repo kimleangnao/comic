@@ -1,0 +1,138 @@
+body {
+	padding: 0;
+	margin: 0;
+	background-image: url(../background-register.jpg);
+}
+
+/*start second-body*/
+.second-body {
+	width: 1020px;
+	margin-left: 450px;
+}
+.home-logo {
+	float: left;
+	width: 172px;
+	height: 172px;
+	background-image: url(../SmileyFace.png);
+	background-size: 172px 172px;
+}
+
+.question {
+	float: right;
+	font-size: 25px;
+	margin-top: 40px;
+	color: white;
+}
+.button-login {
+	float: left;
+	width: 100px;
+	height: 50px;
+	margin-left: 720px;
+	background-color: black;
+	box-shadow: -1px 1px 10px white;
+
+}
+.login {
+	color: white;
+	font-size: 25px;
+	text-decoration: none;
+
+}
+.padding { 
+	clear:both;
+	padding-bottom: 30px;
+ }
+/*FORM*/
+.register-form {
+	clear: both;
+	width: 1020px;
+	height: 600px;
+	box-shadow: -1px 1px 10px white;
+	background-color: lightgrey;
+}
+.title {
+	margin-left: 444px;
+	font-family: sans-serif;
+	font-size: 25px;
+	color: #22916a;
+	padding-top: 25px;
+	padding-bottom: 50px;
+}
+.form-input {
+	margin-left: 150px;
+}
+.input {
+	width: 250px;
+	height: 35px;
+	margin-left: 50px;
+	margin-bottom: 35px;
+}
+
+.agreement-details {
+	width: 700px;
+	margin-left: 70px;
+	font-size: 25px;
+	color: black;
+
+}
+.signup-button {
+	width:150px;
+	height: 50px;
+	font-size: 20px;
+	margin-left: 50px;
+	background-color: white;
+	color: black;
+	box-shadow: 1px 1px 10px green;
+}
+.signup-button:hover {
+	background-color: green;
+	color: white;
+	box-shadow: 1px 5px 100px green;
+
+}
+input, input::placeholder {
+	font-size: 20px;
+}
+
+.terms {
+	text-decoration: none;
+	color: blue;
+}
+.terms:hover {
+	text-decoration: underline;
+}
+
+.data-policy {
+	text-decoration: none;
+	color: blue;
+}
+.data-policy:hover {
+	text-decoration: underline;
+}
+
+.cookies-policy {
+	text-decoration: none;
+	color: blue;
+}
+.cookies-policy:hover {
+	text-decoration: underline;
+}
+
+
+@media only screen and (max-width: 600px){
+	.second-body{
+		margin-left: 0;
+	}
+}
+
+@media only screen and (max-width: 368px){
+	.second-body{
+		margin-left: 0;
+	}
+}
+
+@media only screen and (max-width: 990px){
+	.second-body{
+		margin-left: 0;
+	}
+}
