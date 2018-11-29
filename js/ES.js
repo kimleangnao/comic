@@ -17,7 +17,7 @@ $(function() {
 		$("div.group-"+holdNum).addClass("active").removeClass("deactive");
 		}
 		$("span.page-number").text(holdNum);
-	})
+	});
 
 
 	$("#nav a").on('click', function(e){
@@ -29,7 +29,7 @@ $(function() {
 
 		$("#container").remove();
 		$("#content").load(url + '#container');
-	})
+	});
 
 	$("#nav-classic a").on('click', function(e){
 		e.preventDefault();
@@ -40,6 +40,16 @@ $(function() {
 
 		$("#container-classic").remove();
 		$("#content-classic").load(url + '#container-classic');
-	})
+	});
 
+	var form = document.getElementById('login-form')
+
+	addEvent(form, 'submit', function(e) {
+		e.preventDefault();
+		var elements = this.elements;
+		var username = elements.username.value;
+		var msg = 'Wellcome, ' + username;
+		document.getElementById('user-wellcome').textContent = msg;
+		form.reset();
+	});
 });
