@@ -1,9 +1,11 @@
+
 body {
 	padding: 0;
 	margin: 0;
-	background-image: url('http://anband.spb.ru/images/300/DSC100347002.jpg');
+	background-image: url(../background.jpg);
 	font-family: sans-serif;
 }
+
 
 /*First-layer*/
 .first-layer {
@@ -18,6 +20,13 @@ body {
 	height: 176px;
 }
 
+#user-wellcome {
+	float: left;
+	font-size: 20px;
+	margin-left: 735px;
+	box-shadow: 1px 1px 1px red;
+}
+
 .search-input {
 	float: left;
 	height: 30px;
@@ -26,14 +35,14 @@ body {
 	border: 1px solid lightgrey;
 	margin-left: 530px;
 	margin-right: 5px;
-	margin-top: 40px;
+	margin-top: 20px;
 }
 .option-search {
 	float: left;
 	height: 30px;
 	border: 1px solid lightgrey;
 	margin-right: 5px;
-	margin-top: 40px;
+	margin-top: 20px;
 }
 .search-submit {
 	height: 30px;
@@ -41,7 +50,7 @@ body {
 	background-color: #FFDF00;
 	border: 1px solid #FFDF00;
 	font-family: sans-serif;
-	margin-top: 40px;
+	margin-top: 20px;
 	float : left;
 }
 .search-submit:hover {
@@ -74,14 +83,7 @@ body {
 	margin-top: 5px;
 	margin-left: 5px;
 }
-.login {
-	text-decoration: none;
-	color:#ffffff;
-	font-weight: bold;
-}
-.login:hover {
-	color: black;
-}
+
 .register {
 	text-decoration: none;
 	color: #000000;
@@ -91,6 +93,31 @@ body {
 .register:hover {
 	color: white;
 }
+
+#login-form {
+	float: left;
+	margin-top: -48px;
+	margin-left: 705px;
+}
+.input {
+	width: 150px;
+	height: 30px;
+}
+.login-submit {
+	height: 40px;
+	width: 75px;
+	font-size: 18px;
+	background-color:black;
+	color: white;
+	box-shadow: 1px 1px 5px white;
+}
+.input, .input::placeholder {
+	font-size: 18px;
+}
+
+
+
+
 
 /*nav-bar*/
 .nav-bar {
@@ -430,8 +457,8 @@ border-bottom: 2px solid red;
 	.popular {
 		margin-left: 10%;
 	}
-
 }
+
 @media only screen and (max-width: 368px){
 	.first-layer {
 		margin-left: 0px;
@@ -447,7 +474,6 @@ border-bottom: 2px solid red;
 	}
 }
 
-
 @media only screen and (max-width: 990px){
 	.first-layer {
 		margin-left: 0px;
@@ -462,6 +488,5 @@ border-bottom: 2px solid red;
 		margin-left: 0px;
 	}
 }
-
 
 
