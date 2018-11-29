@@ -10,6 +10,9 @@
 <body>
 	<div class="first-layer">
 		<img src="smiley.jpg" alt="Enternal-Logo" class="logo"/>
+		<!-- Hi to user-->
+		<p id="user-wellcome">Hi!</p>
+
 		<form>
 			<input type="search" name="search" class="search-input" placeholder="Enter series name here" />
 			<select class="option-search">
@@ -19,9 +22,15 @@
 			<input type="submit" value="Search" class="search-submit">
 		</form>
 
-		<a href="#" class="advance-search"><button class="button-advance">Advance Search</button></a>
-		<p class="login-register"><a href="#" class="login">Login</a> or <a href="Register.html" class="register">Register</a></p>
 
+		<a href="#" class="advance-search"><button class="button-advance">Advance Search</button></a>
+		<p class="login-register"> <a href="Register.html" class="register">Register</a></p>
+
+		<form action="/login/" id="login-form" method="post">
+			<input type="text" id="username" name="username" class="input username" placeholder="Username"  />
+			<input type="password" name="password" class="input password" placeholder="Password" />
+			<input type="submit" value="Login" class="login-submit" />
+		</form>
 	
 	</div>
 	<div class="nav-bar">
@@ -188,6 +197,7 @@
 	</div>
 
 <script src="js/jquery-1.11.0.js"></script>
+<script src="js/addevent.js"></script>
 <script src="js/ES.js"></script>
 
 </body>
